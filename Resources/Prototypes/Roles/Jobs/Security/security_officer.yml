@@ -106,9 +106,7 @@
   - !type:AddComponentSpecial # goobstation
     components:
       - type: SecurityStaff
-      - type: Skills # CorvaxGoob-Skills
-        skills:
-        - Shooting
+
 
 - type: startingGear
   id: SecurityOfficerGear
