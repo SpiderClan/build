@@ -102,9 +102,6 @@
       - type: GrantCqc # Goobstation - Martial Arts
         startingStage: Hard # Goobstation - Martial Arts
         isBlocked: true # Goobstation - Martial Arts
-      - type: Skills # CorvaxGoob-Skills
-        skills:
-        - Butchering
   - !type:AddImplantSpecial # Chefs speak space italian
     implants: [ SpaceItalianTranslatorImplant ]
 

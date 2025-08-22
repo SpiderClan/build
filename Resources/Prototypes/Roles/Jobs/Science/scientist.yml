@@ -86,10 +86,8 @@
   - Maintenance
   special:
   - !type:AddComponentSpecial
-    components:
-    - type: Skills # CorvaxGoob-Skills
-      skills:
-      - AdvancedBuilding
+
+
 
 - type: startingGear
   id: ScientistGear
