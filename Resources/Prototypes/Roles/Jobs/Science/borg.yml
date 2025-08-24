@@ -62,12 +62,3 @@
   applyTraits: true
   special:
   - !type:AddComponentSpecial
-    components:
-    - type: Skills # CorvaxGoob-Skills
-      skills:
-      - ShuttleControl
-      - Shooting
-      - AdvancedBuilding
-      - Surgery
-      - MedicalEquipment
-      - Butchering
