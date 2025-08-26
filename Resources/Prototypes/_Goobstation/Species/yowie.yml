@@ -13,6 +13,7 @@
 - type: species
   id: Yowie
   name: species-name-yowie
+  roundStart: true
   prototype: MobYowie
   sprites: MobYowieSprites
   markingLimits: MobYowieMarkingLimits
