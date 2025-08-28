@@ -1,0 +1,33 @@
+- type: entity
+  parent: BaseItem
+  name: talisman
+  description: talisman
+  id: LavalandTalismanOfUndying
+  components:
+  - type: Sprite
+    sprite: _Radium/Objects/Specific/Lavaland/talisman.rsi
+    state: icon
+  - type: Item
+    size: Small
+    sprite: _Radium/Objects/Specific/Lavaland/talisman.rsi
+    state: icon
+  - type: TriggerOnUse
+  - type: PolymorphOnTrigger
+    polymorph: VoidPocketTalisman
+  - type: UseDelay
+    delay: 110
+
+- type: polymorph
+  id: VoidPocketTalisman
+  configuration:
+    entity: TalismanPocket
+    transferName: false
+    inventory: None
+    forced: false
+    revertOnDeath: true
+    allowRepeatedMorphs: false
+    polymorphSound: /Audio/Magic/ethereal_enter.ogg
+    exitPolymorphSound: /Audio/Magic/ethereal_exit.ogg
+    duration: 60
+    effectProto: EffectDesynchronizer
+

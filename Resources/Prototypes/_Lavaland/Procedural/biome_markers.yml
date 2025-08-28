@@ -19,18 +19,22 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# Radium edits start
+
 - type: biomeMarkerLayer
   id: RandomTendrilLavaland
   prototype: SpawnerRandomTendrilLavaland
-  radius: 64
-  maxCount: 24
-  size: 512
+  radius: 32
+  maxCount: 48
+  size: 207
 
 - type: biomeMarkerLayer
   id: ChasmLavaland
   prototype: FloorChasmEntity
-  minGroupSize: 4
-  maxGroupSize: 8
+  minGroupSize: 0
+  maxGroupSize: 0
+
+# Radium edits end
 
 - type: biomeMarkerLayer
   id: RandomMobLavaland

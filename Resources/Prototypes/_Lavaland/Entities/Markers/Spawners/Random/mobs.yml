@@ -11,11 +11,7 @@
       weight: 50
       children:
       - id: MobGoliath
-      - id: MobHivelord
-    - !type:GroupSelector
-        weight: 35
-        children:
-        - id: MobCarpDungeon
+      - id: MobLegion
     - !type:GroupSelector
       weight: 15
       children:
