@@ -1,0 +1,34 @@
+- type: entity
+  parent: WeaponCrusher
+  id: WeaponMagmitCrusher
+  components:
+  - type: Sprite
+    sprite: _Radium/Objects/Weapons/Melle/magmitcrusher.rsi
+    state: icon
+  - type: Item
+    size: Ginormous
+    sprite: _Radium/Objects/Weapons/Melle/magmitcrusher.rsi
+  - type: Clothing
+    sprite: _Radium/Objects/Weapons/Melle/magmitcrusher.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: BasicEntityAmmoProvider
+    proto: BulletChargeMagmit
+    capacity: 1
+    count: 1
+
+- type: entity
+  id: BulletChargeMagmit
+  name: charge bolt
+  parent: BulletPlasmaCutter
+  categories: [ HideSpawnMenu ]
+  description: Marks a target for additional damage.
+  components:
+  - type: PointLight
+    radius: 4
+    color: orange
+    energy: 2
+  - type: TimedDespawn
+    
