@@ -1,0 +1,13 @@
+- type: entity
+  parent: [Incorporeal, BaseMob]
+  id: TalismanPocket
+  name: something
+  description: A hole in darknnes, keeping the user a fraction of a second in the future.
+  components:
+  - type: Spectral
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 0
+    baseWalkSpeed: 0
+  - type: Sprite
+    sprite: _Radium/Mobs/Lavaland/talisman.rsi
+    state: icon
