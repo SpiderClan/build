@@ -1,0 +1,26 @@
+- type: entity
+  id: LavalandCrateNecropolisTalismanOfUndying
+  parent: LavalandCrateNecropolis
+  suffix: Talisman Of Undying
+  components:
+  - type: StorageFill
+    contents:
+      - id: LavalandTalismanOfUndying
+
+- type: entity
+  id: LavalandCrateNecropolisEverfullMugKvass
+  parent: LavalandCrateNecropolis
+  suffix: Talisman Of Undying
+  components:
+  - type: StorageFill
+    contents:
+      - id: EverfullMugKvass
+
+- type: entity
+  id: LavalandCrateNecropolisClothingOuterHardsuitBerserk
+  parent: LavalandCrateNecropolis
+  suffix: Talisman Of Undying
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitBerserk
