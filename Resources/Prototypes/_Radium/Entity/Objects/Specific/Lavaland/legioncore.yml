@@ -1,0 +1,43 @@
+- type: entity
+  parent: BaseItem
+  name: legion core
+  description: legion core
+  id: LegionCore
+  components:
+  - type: Sprite
+    sprite: _Radium/Objects/Specific/Lavaland/legioncore.rsi
+    state: activ
+  - type: Item
+    size: Small
+    sprite: _Radium/Objects/Specific/Lavaland/legioncore.rsi
+    state: activ
+  - type: Healing
+    damageContainers:
+      - Biological
+    damage:
+      types:
+        Heat: -20
+        Cold: -20
+        Shock: -20
+        Caustic: -20
+        Brute: -20
+        Slash: -20
+        Piercing: -20
+  - type: TimedDespawn
+    lifetime: 60
+  - type: SpawnOnDespawn
+    prototype: UnActivLegionCore
+
+- type: entity
+  parent: BaseItem
+  name: un active legion core
+  description: legion core
+  id: UnActivLegionCore
+  components:
+  - type: Sprite
+    sprite: _Radium/Objects/Specific/Lavaland/legioncore.rsi
+    state: unactiv
+  - type: Item
+    size: Small
+    sprite: _Radium/Objects/Specific/Lavaland/legioncore.rsi
+    state: unactiv

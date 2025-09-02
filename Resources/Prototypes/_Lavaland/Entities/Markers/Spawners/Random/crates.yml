@@ -33,9 +33,12 @@
   - type: RandomSpawner
     offset: 0
     prototypes:
-    - LavalandCrateNecropolisCultRobe
+  # - LavalandCrateNecropolisCultRobe Radium
     - LavalandCrateNecropolisCultArmor
     - LavalandCrateNecropolisHeart
     - LavalandCrateNecropolisBookOfGreentext # CorvaxGoob-Lavaland-Stuff
     - LavalandCrateNecropolisVampirismCrystal
+    - LavalandCrateNecropolisTalismanOfUndying #Radium
+    - LavalandCrateNecropolisEverfullMug #Radium
+    - LavalandCrateNecropolisClothingOuterHardsuitBerserk #Radium
     chance: 1
