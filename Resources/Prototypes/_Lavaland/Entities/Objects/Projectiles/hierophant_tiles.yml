@@ -24,7 +24,6 @@
   - type: DamageSquare
     damage:
       types:
-        Blunt: 10
         Heat: 10
     sound:
       path: /Audio/_Lavaland/Mobs/Bosses/hiero_blast.ogg

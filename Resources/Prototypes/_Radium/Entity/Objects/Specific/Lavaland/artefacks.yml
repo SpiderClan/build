@@ -16,3 +16,22 @@
     polymorph: VoidPocketTalisman
   - type: UseDelay
     delay: 110
+
+- type: entity
+  parent: EverfullMug
+  id: EverfullMugKvass
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Kvass
+          Quantity: 30
+  - type: SolutionRegeneration
+    solution: drink
+    duration: 10
+    generated:
+      reagents:
+      - ReagentId: Kvass
+        Quantity: 5
