@@ -43,5 +43,3 @@ reagent-effect-guidebook-disease-progress-change =
         [1] Modifies
         *[other] modify
     } progress of {$type} diseases by {NATURALFIXED($amount, 5)}
-
-reagent-effect-guidebook-disease-mutate = Mutates diseases by {NATURALFIXED($amount, 4)}
