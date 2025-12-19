@@ -36,12 +36,12 @@ reagent-effect-guidebook-immunity-modifier =
     { $chance ->
         [1] Modifies
         *[other] modify
-    } immunity gain rate by {NATURALFIXED($gainrate, 5)}, strength by {NATURALFIXED($strength, 5)} for at least {NATURALFIXED($time, 3)} {MANY("second", $time)}
+    } immunity gain rate by {$gainrate}, strength by {$strength} for at least {$time} {MANY("second", $time)}
 
 reagent-effect-guidebook-disease-progress-change =
     { $chance ->
         [1] Modifies
         *[other] modify
-    } progress of {$type} diseases by {NATURALFIXED($amount, 5)}
+    } progress of {$type} diseases by {$amount}
 
-reagent-effect-guidebook-disease-mutate = Mutates diseases by {NATURALFIXED($amount, 4)}
+reagent-effect-guidebook-disease-mutate = Mutates diseases by {$amount}
