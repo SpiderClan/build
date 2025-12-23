@@ -37,6 +37,8 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
+using System.Diagnostics.Contracts;
+using System.Diagnostics.CodeAnalysis;
 using Content.Goobstation.Shared.Changeling.Components;
 
 namespace Content.Goobstation.Server.Devil.Contract;
