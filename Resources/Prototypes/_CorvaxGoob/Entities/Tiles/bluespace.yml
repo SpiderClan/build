@@ -1,5 +1,5 @@
 - type: entity
-  id: FloorBluespaceEntity
+  id: FloorBluespaceEntityCor
   name: bluespace floor
   placement:
     mode: SnapgridCenter

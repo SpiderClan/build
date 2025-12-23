@@ -1,7 +1,7 @@
 - type: entity
   name: bluespace tile
   parent: FloorTileItemBase
-  id: FloorTileItemBluespace
+  id: FloorTileItemBluespaceCor
   components:
   - type: Sprite
     sprite: _CorvaxGoob/Objects/Tiles/bluespace.rsi

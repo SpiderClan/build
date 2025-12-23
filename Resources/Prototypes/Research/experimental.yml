@@ -104,7 +104,7 @@
     - AdvancedRobotics
     - AdvancedAnomalyResearch
 - type: technology
-  id: XenoBiology
+  id: XenoBiologyImplanter
   name: research-technology-xeno-biology
   icon:
     sprite: _White/Mobs/Aliens/Xenomorphs/drone.rsi
